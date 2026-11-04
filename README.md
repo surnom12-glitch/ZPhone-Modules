@@ -1,24 +1,4 @@
-# ZPhone for Z-City (fix63)
-
-A smartphone for the Garry's Mod gamemode **Z-City**: calls, 911, TeleChat, camera, photo/video,
-gallery, settings, control centre, clock, music. Standalone addon: Z-City files are not modified.
-
-**fix62:** phone videos record **real sound** — your microphone (while you talk in voice chat) and
-the game's own audio — as AAC inside the MP4, in sync with the video, through the optional native
-recorder (H.264 NVENC).
-
-**fix63 — the phone's own ear:** the game sound of a clip is heard **where the phone is**, not at
-your head (like the camera in *Content Warning*). Every sound the game starts is re-played by the
-native module into the clip at the phone's position: Source's distance fall-off, walls muffle,
-far sounds lose their highs, moving sources are followed, pitch and loops as in the game. Sounds
-only the server plays (NPCs, doors, other players' steps and shots) are relayed by the server
-(fix63 addon needed there). While the phone is at your head (< ~70 units) the clip uses "what you
-hear" (with the other players' voice chat), beyond ~170 units only the phone's ear, crossfaded in
-between. Not heard by the ear (only near you): other players' voice chat, BASS streams
-(`sound.PlayFile` / `PlayURL`: radio, music, Glide engines), map ambients, sounds started before
-recording; room DSP/echo is not re-created.
-
-## Install
+## Install старый инсталл туториал не хочу меять
 
 1. Close Garry's Mod.
 2. Run **`install.bat`**. It finds Garry's Mod through Steam (all library folders), moves the old
