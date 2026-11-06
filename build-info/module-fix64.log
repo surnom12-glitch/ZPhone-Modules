@@ -1,0 +1,9 @@
+fix64 module build (llvm-mingw 20261006 UCRT, 2026-11-04)
+$ ROOT=<workdir> bash native_source/build-info/build_module_cross.sh
+$ x86_64-w64-mingw32-clang++ -std=c++17 -O2 -g -Wall -Wextra -Wno-unused-parameter -shared -Wl,--no-insert-timestamp -o gmcl_zhphone_win64.dll src/module.cpp ... -static
+exit=0 warnings=0
+reproducible: built twice from native_source/src with this script, identical to the distributed DLL byte for byte (same folder path: -g stores the source path)
+sha256 52f8d641b0a30a63b91e59165072362e2adad5430ef8df8b268e72ffa13d5df2
+imports: unchanged against fix63 (FXAA loads d3dcompiler_47.dll at runtime)
+tests (Linux, ASan/UBSan): tests/ear PASS, tests/audio PASS (all 5 modes)
+tests (LuaJIT, GMod mocks): tests/lua_ear 32 + 20 + 5 + 13 checks PASS

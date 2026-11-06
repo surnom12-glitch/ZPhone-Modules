@@ -1,0 +1,93 @@
+install prefix            /data/f70/ffmpeg-x64
+source path               /data/f70/FFmpeg-n8.1
+C compiler                x86_64-w64-mingw32-clang
+C library                 mingw64
+host C compiler           gcc
+host C library            glibc
+ARCH                      x86 (generic)
+build suffix              -zhphone32
+big-endian                no
+runtime cpu detection     yes
+standalone assembly       yes
+x86 assembler             nasm
+MMX enabled               yes
+MMXEXT enabled            yes
+SSE enabled               yes
+SSSE3 enabled             yes
+AESNI enabled             yes
+CLMUL enabled             yes
+AVX enabled               yes
+AVX2 enabled              yes
+AVX-512 enabled           yes
+AVX-512ICL enabled        yes
+XOP enabled               yes
+FMA3 enabled              yes
+FMA4 enabled              yes
+i686 features enabled     yes
+CMOV is fast              yes
+EBX available             yes
+EBP available             yes
+debug symbols             no
+strip symbols             yes
+optimize for size         no
+optimizations             yes
+static                    no
+shared                    yes
+network support           yes
+threading support         w32threads
+safe bitstream reader     yes
+texi2html enabled         no
+perl enabled              yes
+pod2man enabled           yes
+makeinfo enabled          no
+makeinfo supports HTML    no
+experimental features     yes
+xmllint enabled           yes
+
+External libraries:
+mediafoundation
+
+External libraries providing hardware acceleration:
+amf                     d3d11va                 nvenc
+cuda                    ffnvcodec
+
+Libraries:
+avcodec                 avformat                avutil
+
+Programs:
+
+Enabled decoders:
+adpcm_ima_wav           mp3float                pcm_s32le
+adpcm_ms                pcm_f32le               pcm_u8
+mjpeg                   pcm_s16le               vorbis
+mp3                     pcm_s24le
+
+Enabled encoders:
+aac                     h264_mf                 mjpeg
+h264_amf                h264_nvenc
+
+Enabled hwaccels:
+
+Enabled parsers:
+ac3                     mpegaudio               vorbis
+
+Enabled demuxers:
+mov                     ogg
+mp3                     wav
+
+Enabled muxers:
+mov                     mp4
+
+Enabled protocols:
+file
+
+Enabled filters:
+
+Enabled bsfs:
+aac_adtstoasc           vp9_superframe
+
+Enabled indevs:
+
+Enabled outdevs:
+
+License: LGPL version 2.1 or later
