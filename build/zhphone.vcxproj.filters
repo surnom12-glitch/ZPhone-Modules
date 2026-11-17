@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\src\module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\src\audio_capture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\src\phone_ear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{643F6EA5-302F-3FC5-AA50-070930E26F54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7AA58021-69D6-3DF5-8334-8F0BB1B6A44D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

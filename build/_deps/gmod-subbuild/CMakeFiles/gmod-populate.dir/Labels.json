@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/gmod-populate"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/61dabd9fc6816635ff1bc6836ec5e415/gmod-populate.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/e3633c896913388bf4b5369d35ee99f2/gmod-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/dae5ae35e1471c926477154099f6c1ab/gmod-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/dae5ae35e1471c926477154099f6c1ab/gmod-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/dae5ae35e1471c926477154099f6c1ab/gmod-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/dae5ae35e1471c926477154099f6c1ab/gmod-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/dae5ae35e1471c926477154099f6c1ab/gmod-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/dae5ae35e1471c926477154099f6c1ab/gmod-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/dae5ae35e1471c926477154099f6c1ab/gmod-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/dae5ae35e1471c926477154099f6c1ab/gmod-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gmod-populate"
+		],
+		"name" : "gmod-populate"
+	}
+}

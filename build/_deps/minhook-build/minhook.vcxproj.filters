@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-src\src\buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-src\src\hook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-src\src\trampoline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-src\src\hde\hde64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7AA58021-69D6-3DF5-8334-8F0BB1B6A44D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

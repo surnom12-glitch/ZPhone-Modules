@@ -1,0 +1,150 @@
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\GMOD-SUBBUILD\CMAKEFILES\DAE5AE35E1471C926477154099F6C1AB\GMOD-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/gmod-populate-prefix/tmp/gmod-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/gmod-populate-prefix/src/gmod-populate-stamp/Debug/gmod-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\GMOD-SUBBUILD\CMAKEFILES\DAE5AE35E1471C926477154099F6C1AB\GMOD-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/gmod-populate-prefix/tmp/gmod-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/gmod-populate-prefix/src/gmod-populate-stamp/Debug/gmod-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\GMOD-SUBBUILD\CMAKEFILES\DAE5AE35E1471C926477154099F6C1AB\GMOD-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\gmod-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/gmod-populate-prefix/tmp/gmod-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\GMOD-SUBBUILD\CMAKEFILES\DAE5AE35E1471C926477154099F6C1AB\GMOD-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/gmod-populate-prefix/src/gmod-populate-stamp/Debug/gmod-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\GMOD-SUBBUILD\CMAKEFILES\DAE5AE35E1471C926477154099F6C1AB\GMOD-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\gmod-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/gmod-populate-prefix/src/gmod-populate-stamp/Debug/gmod-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\GMOD-SUBBUILD\CMAKEFILES\DAE5AE35E1471C926477154099F6C1AB\GMOD-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\gmod-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/gmod-populate-prefix/src/gmod-populate-stamp/Debug/gmod-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\GMOD-SUBBUILD\CMAKEFILES\DAE5AE35E1471C926477154099F6C1AB\GMOD-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\gmod-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/gmod-populate-prefix/src/gmod-populate-stamp/Debug/gmod-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\GMOD-SUBBUILD\CMAKEFILES\DAE5AE35E1471C926477154099F6C1AB\GMOD-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\gmod-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/gmod-populate-prefix/src/gmod-populate-stamp/Debug/gmod-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\GMOD-SUBBUILD\CMAKEFILES\E3633C896913388BF4B5369D35EE99F2\GMOD-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/Debug/gmod-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/gmod-populate-prefix/src/gmod-populate-stamp/Debug/gmod-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\GMOD-SUBBUILD\CMAKEFILES\61DABD9FC6816635FF1BC6836EC5E415\GMOD-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\GMOD-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild -BC:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild --check-stamp-file C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/gmod-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

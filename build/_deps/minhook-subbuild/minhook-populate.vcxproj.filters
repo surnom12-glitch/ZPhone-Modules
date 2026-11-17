@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\91062ccd6cdce0075f70c26f2ce6cb6d\minhook-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\4164bf5de93ab2ff8e943ae8dc247867\minhook-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\minhook-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{01356BDB-45A0-3E6B-9A6F-D569B858D5B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

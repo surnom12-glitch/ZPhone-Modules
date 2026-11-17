@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8CFA51F3-B7E9-3B1D-AF06-64E502FA20F6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>minhook-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-mkdir.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'minhook-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate-prefix/tmp/minhook-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'minhook-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate-prefix/tmp/minhook-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\minhook-populate-gitinfo.txt;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'minhook-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate-prefix/tmp/minhook-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\tmp\minhook-populate-gitupdate.cmake;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\minhook-populate-update-info.txt;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'minhook-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\minhook-populate-patch-info.txt;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-configure.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'minhook-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\tmp\minhook-populate-cfgcmd.txt;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-build.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'minhook-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-install.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'minhook-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\2e04dcda49285a61f14ffd41fa3ace86\minhook-populate-test.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'minhook-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\91062ccd6cdce0075f70c26f2ce6cb6d\minhook-populate-complete.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'minhook-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/Debug/minhook-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-install;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-mkdir;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-download;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-update;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-patch;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-configure;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-build;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\src\minhook-populate-stamp\Debug\minhook-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\Debug\minhook-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\4164bf5de93ab2ff8e943ae8dc247867\minhook-populate.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\Debug\minhook-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\minhook-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild -BC:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild --check-stamp-file C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\4.3.2\CMakeSystem.cmake;C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\minhook-populate-prefix\tmp\minhook-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\minhook-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{0F96A416-0102-3C7B-A271-EF849B559133}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

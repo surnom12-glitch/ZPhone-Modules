@@ -1,0 +1,3 @@
+C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/minhook-populate.dir
+C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/ZERO_CHECK.dir

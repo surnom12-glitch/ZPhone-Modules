@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/minhook-populate"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/4164bf5de93ab2ff8e943ae8dc247867/minhook-populate.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/91062ccd6cdce0075f70c26f2ce6cb6d/minhook-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/2e04dcda49285a61f14ffd41fa3ace86/minhook-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/2e04dcda49285a61f14ffd41fa3ace86/minhook-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/2e04dcda49285a61f14ffd41fa3ace86/minhook-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/2e04dcda49285a61f14ffd41fa3ace86/minhook-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/2e04dcda49285a61f14ffd41fa3ace86/minhook-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/2e04dcda49285a61f14ffd41fa3ace86/minhook-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/2e04dcda49285a61f14ffd41fa3ace86/minhook-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/CMakeFiles/2e04dcda49285a61f14ffd41fa3ace86/minhook-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"minhook-populate"
+		],
+		"name" : "minhook-populate"
+	}
+}

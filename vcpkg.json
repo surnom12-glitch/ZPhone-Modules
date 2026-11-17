@@ -1,0 +1,16 @@
+{
+  "name": "zhphone",
+  "version-string": "0.2.0",
+  "dependencies": [
+    {
+      "name": "ffmpeg",
+      "default-features": false,
+      "features": [
+        "avcodec",
+        "avformat",
+        "nvcodec"
+      ]
+    }
+  ],
+  "builtin-baseline": "bf19794383e8fb95eba5aa553235bc8ec2271688"
+}

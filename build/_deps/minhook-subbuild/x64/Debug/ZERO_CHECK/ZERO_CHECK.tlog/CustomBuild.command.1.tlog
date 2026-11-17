@@ -1,0 +1,10 @@
+^C:\USERS\DUHAS\DOWNLOADS\ZPHONE_FIX77_CSC_SECURE\ZPHONE_FIX77_CSC_SECURE\NATIVE_SOURCE\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\4164BF5DE93AB2FF8E943AE8DC247867\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild -BC:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/duhas/Downloads/zphone_fix77_csc_secure/zphone_fix77_csc_secure/native_source/build/_deps/minhook-subbuild/minhook-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

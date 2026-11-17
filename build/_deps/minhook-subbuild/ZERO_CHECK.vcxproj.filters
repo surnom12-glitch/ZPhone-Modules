@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\duhas\Downloads\zphone_fix77_csc_secure\zphone_fix77_csc_secure\native_source\build\_deps\minhook-subbuild\CMakeFiles\4164bf5de93ab2ff8e943ae8dc247867\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{01356BDB-45A0-3E6B-9A6F-D569B858D5B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,85 @@
+{
+  "gmcl_zhphone_win64.dll": {
+    "sha256": "03f39f0a23af4fd809c346b5ee33692e8faa46d64b36aba74e62f1903478862a",
+    "size": 3457536,
+    "imports": [
+      "avcodec-zhphone32-62.dll",
+      "avformat-zhphone32-62.dll",
+      "avutil-zhphone32-60.dll",
+      "d3d11.dll",
+      "dxgi.dll",
+      "USER32.dll",
+      "ole32.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "KERNEL32.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-multibyte-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll"
+    ]
+  },
+  "avcodec-zhphone32-62.dll": {
+    "sha256": "29ab542b13845791ceaeb7e5d5128c54def64b60d887fa0e32e12cacb0c415d4",
+    "size": 588800,
+    "imports": [
+      "avutil-zhphone32-60.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "KERNEL32.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll"
+    ]
+  },
+  "avformat-zhphone32-62.dll": {
+    "sha256": "b39ea1462fbeaf978255fa9bf0bc11428f1e7319deb58801dd846fcd919d24de",
+    "size": 494592,
+    "imports": [
+      "avcodec-zhphone32-62.dll",
+      "avutil-zhphone32-60.dll",
+      "WS2_32.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll",
+      "KERNEL32.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll"
+    ]
+  },
+  "avutil-zhphone32-60.dll": {
+    "sha256": "2bfb6ee00e210893a6b65c4cecc2726e07b7a1e8e7e41404ce3c05621822769a",
+    "size": 546304,
+    "imports": [
+      "bcrypt.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "KERNEL32.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll"
+    ]
+  }
+}
